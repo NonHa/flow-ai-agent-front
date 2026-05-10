@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f2f4f8;
+  color: #111827;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.app-shell {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.content-layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 380px;
+  gap: 16px;
+  min-width: 0;
+}
+

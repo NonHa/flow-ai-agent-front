@@ -1,0 +1,26 @@
+{
+  "name": "flow-ai-agent-front",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "type-check": "vue-tsc -b --pretty",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@logicflow/core": "^2.1.11",
+    "@logicflow/extension": "^2.1.15",
+    "axios": "^1.15.0",
+    "vue": "^3.5.32"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vue/tsconfig": "^0.9.1",
+    "typescript": "^6.0.2",
+    "vite": "^5.4.21",
+    "vue-tsc": "^3.2.6"
+  }
+}
